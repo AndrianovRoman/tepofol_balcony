@@ -1,0 +1,294 @@
+@media screen and (max-width: 1580px) {
+    .choice-content-item {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+    .material {
+        align-items: center;
+    }
+    .material-image-items .slick-list {
+        max-width: 630px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .price {
+        background-size: unset;
+         background-position: right bottom;
+        padding-right: 230px;
+    }
+}
+
+@media screen and (max-width: 1178px) {
+    .why-content {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .material-image-items .slick-list {
+        max-width: 430px;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .choice-content-item {
+        width: 730px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .insulation-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .insulation-content-text {
+        max-width: 730px;
+        width: unset;
+    }
+    .material {
+        flex-direction: column;
+    }
+    .material-content {
+        width: unset;
+    }
+    .material-image-items .slick-list {
+        max-width: 730px
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .instructions-content {
+        flex-direction: column;
+    }
+    .instructions-content-item {
+        width: unset;
+    }
+    .material-image-items .slick-list {
+        max-width: 530px
+    }
+}
+
+@media screen and (max-width: 778px) {
+    .why-content {
+        gap: 20px;
+    }
+    .why-content-item {
+        width: unset;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main {
+        padding: 80px 20px;
+        background-position: left;
+    }
+    .price {
+        height: 600px;
+        padding-right: 20px;
+        background-position: bottom;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .insulation-content-video {
+        width: 450px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .insulation,
+    .why,
+    .choice,
+    .feature,
+    .conclusion,
+    .instructions,
+    .price,
+    .questions {
+        margin-bottom: 50px;
+    }
+    .main-title {
+        font-size: 30px;
+    }
+    .main-subtitle,
+    .insulation-content-text-description,
+    .why-subtitle,
+    .choice-subtitle,
+    .choice-content-item-text,
+    .instructions-text,
+    .material-content-text,
+    .price-text {
+        font-size: 18px;
+    }
+    .insulation-content-text-title,
+    .why-title,
+    .choice-title,
+    .feature-title,
+    .conclusion-title,
+    .instructions-title,
+    .material-content-title,
+    .price-title,
+    .questions-title {
+        font-size: 24px;
+    }
+    .insulation-content-text-title,
+    .insulation-content-text-description,
+    .insulation-bread-crumbs,
+    .instructions-title,
+    .instructions-text,
+    .material-content-title,
+    .price-title,
+    .questions-title {
+        margin-bottom: 20px;
+    }
+    .why-info,
+    .instructions-info {
+        align-items: flex-start;
+    }
+    .why-content {
+        margin-bottom: 20px;
+    }
+    .why-subtitle {
+        margin-bottom: 20px;
+    }
+    .choice-subtitle {
+        margin-bottom: 20px;
+    }
+    .feature-content-item,
+    .conclusion-content-item {
+        align-items: flex-start;
+    }
+    .instructions-content {
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    .instructions-content-item-title {
+        font-size: 18px;
+    }
+    .instructions-content-item-title span {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+    .instructions-content-item-description {
+        font-size: 16px;
+    }
+    .material {
+        gap: 20px;
+    }
+    .questions-details-summary-title {
+        font-size: 18px;
+    }
+    .questions-details-answer {
+        font-size: 16px;
+    }
+    .material-image-items .slick-list {
+        max-width: 400px
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .insulation-content-video {
+        width: unset;
+        max-width: 300px;
+        height: 160px;
+    }
+    .insulation-content {
+        gap: 20px;
+    }
+    .choice-content {
+        gap: 20px;
+    }
+    .choice-content-item-image {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .main {
+        padding: 40px 20px;
+    }
+    .main-title {
+        font-size: 24px;
+    }
+    .main-subtitle {
+        font-size: 16px;
+    }
+    .insulation-content-text-description {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .price-text {
+        font-size: 16px;
+    }
+    .material-image-items .slick-list {
+        max-width: 272px
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .why-content-item {
+        text-align: center;
+    }
+    .why-content-item-icon {
+        margin-bottom: 10px;
+        height: 50px;
+    }
+    .why-content-item-icon svg {
+        width: 50px;
+        height: 50px;
+    }
+    .why-info-icon,
+    .instructions-info-icon {
+        height: 20px;
+    }
+    .why-info-icon svg,
+    .instructions-info-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .feature-content-item,
+    .conclusion-content-item {
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .feature-content-item-text,
+    .conclusion-content-item-text {
+        font-size: 16px;
+    }
+    .feature-content-item-icon,
+    .conclusion-content-item-icon {
+        height: 20px;
+    }
+    .feature-content-item-icon svg,
+    .conclusion-content-item-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    .questions-details-summary-icon {
+        min-width: 20px;
+        height: 20px;
+    }
+    /*.questions-details-summary-title {*/
+    /*    font-size: 15px;*/
+    /*}*/
+    /*.questions-details-answer {*/
+    /*    font-size: 14px;*/
+    /*}*/
+}
+
+@media screen and (max-width: 400px) {
+    .price {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .price {
+        background-size: 230px;
+    }
+}
