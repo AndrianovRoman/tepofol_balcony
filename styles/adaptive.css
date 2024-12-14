@@ -122,7 +122,8 @@
     .choice-content-item-text,
     .instructions-text,
     .material-content-text,
-    .price-text {
+    .price-text,
+    .feature-content-item-text {
         font-size: 18px;
     }
     .insulation-content-text-title,
@@ -189,6 +190,12 @@
     .material-image-items .slick-list {
         max-width: 400px
     }
+    .why-content-item-title {
+        font-size: 18px;
+    }
+    .why-content-item-description {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -215,7 +222,12 @@
     .main-title {
         font-size: 24px;
     }
-    .main-subtitle {
+    .main-subtitle,
+    .why-subtitle,
+    .choice-subtitle,
+    .choice-content-item-text,
+    .instructions-text,
+    .material-content-text {
         font-size: 16px;
     }
     .insulation-content-text-description {
@@ -231,9 +243,6 @@
 }
 
 @media screen and (max-width: 425px) {
-    .why-content-item {
-        text-align: center;
-    }
     .why-content-item-icon {
         margin-bottom: 10px;
         height: 50px;
@@ -281,7 +290,7 @@
     /*}*/
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 407px) {
     .price {
         height: 700px;
     }
