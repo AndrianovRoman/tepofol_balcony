@@ -1,7 +1,7 @@
 
 
 $(document).ready(function(){
-    $('.material-image-items').slick({
+    $('.material-image-items').not('.slick-initialized').slick({
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
