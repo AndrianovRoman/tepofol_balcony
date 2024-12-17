@@ -1,6 +1,6 @@
 
 
-$('.material-image-items').not('.slick-initialized').slick({
+$('.material-image-items').slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,

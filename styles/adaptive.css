@@ -25,6 +25,7 @@
 @media screen and (max-width: 1178px) {
     .why-content {
         justify-content: center;
+        flex-wrap: wrap;
     }
 }
 
