@@ -408,7 +408,6 @@
 .material-image {
     max-width: 730px;
     max-height: 396px;
-    overflow: hidden;
 }
 
 .material-image img {
